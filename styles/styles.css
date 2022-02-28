@@ -1,0 +1,119 @@
+/* fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Roboto:ital@1&display=swap');
+
+/* font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+
+/* colors */
+body {
+    background-color: white;
+}
+.light_color{
+color: #FDF0D5;
+}
+
+.dark_blue {
+    background-color: #003049;
+}
+.red1 {
+  background-color: #E01E37;
+  
+}
+.red2{
+    background-color: #641220;
+}
+
+.name {
+     font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color:red;
+    text-shadow: #e5e6d5 1px 0 10px;
+}
+.parallax {
+    /* The image used */
+    background-image:url(/website_homework/images/coffee.jpeg);
+
+  
+    /* Set a specific height */
+min-height: 900px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .picture_size {
+    width: 400px;
+    height: 300px;
+    padding: 10px;
+}
+
+.main {
+    background:linear-gradient(
+      rgba(255, 255, 255, 0.925),
+      rgba(0, 0, 0, 0.5)
+    ), url(/images/cover.jpeg);
+    
+    background-repeat: no-repeat;
+    width: 75rem;
+    height: 50rem;
+    border-radius: 2rem;
+}
+
+
+.main2 {
+    background:linear-gradient(
+      rgba(255, 255, 255, 0.925),
+      rgba(0, 0, 0, 0.5)), url(/images/brunch.jpeg);
+    
+    background-repeat: no-repeat;
+    width: 75rem;
+    height: 50rem;
+    border-radius: 2rem;
+}
+.menu1{
+    color: #003049;
+    font-size: 3rem;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-shadow: #003049 1px 0 10px;
+}
+
+.hours {
+    font-size: 3rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color:#FDF0D5;
+    text-shadow: #003049 1px 0 10px;
+}
+.lunch{
+     font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color:#0a0a0a;
+    text-shadow: #e5e6d5 1px 0 10px;
+}
+
+.card-box {
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px #c5c5c5;
+    margin-bottom: 30px;
+    float: left;
+    border-radius: 10px;
+}
+.card-box .card-thumbnail {
+    max-height: 200px;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: 1s;
+}
+.card-box .card-thumbnail:hover {
+    transform: scale(1.2);
+}
+.card-box h3 a {
+    font-size: 20px;
+    text-decoration: none;
+}
